@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo
 x-kinRank: "8"
 x-alexaRank: "116335"
 tags: Plivo
-created: "2018-06-19"
-modified: "2018-06-19"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/apis.md
 specificationVersion: "0.14"
 apis:
