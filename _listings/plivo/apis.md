@@ -7,285 +7,333 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo
 x-kinRank: "8"
 x-alexaRank: "130970"
 tags: Plivo
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-30"
+modified: "2018-08-30"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Codenvy Account API Get Account
-  x-api-slug: codenvy-account-api
+- name: Codenvy Account API - Get Account
+  x-api-slug: account-get
   description: This API call returns a JSON with all user membership in a single or
     multiple accounts
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
-  baseURL: :///account/https://codenvy.com/api//account
-  tags: Account
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/account-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/account-get-openapi.md
-- name: Codenvy Account API Post Account
-  x-api-slug: codenvy-account-api
+- name: Codenvy Account API - Post Account
+  x-api-slug: account-post
   description: Create a new account
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
-  baseURL: :///account/https://codenvy.com/api//account
-  tags: Account
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/account-post-openapi.md
-- name: Codenvy Account API Get Account Find
-  x-api-slug: codenvy-account-api
+- name: Codenvy Account API - Get Account Find
+  x-api-slug: accountfind-get
   description: Get account information by its name. JSON with account details is returned.
     This API call requires system/admin or system/manager role.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
-  baseURL: :///account/https://codenvy.com/api//account/find
-  tags: Account,Find
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/accountfind-get-openapi.md
-- name: Codenvy Account API Get Account Memberships
-  x-api-slug: codenvy-account-api
+- name: Codenvy Account API - Get Account Memberships
+  x-api-slug: accountmemberships-get
   description: ID of a user should be specified as a query parameter. JSON with membership
     details is returned. For this API call system/admin or system/manager role is
     required
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
-  baseURL: :///account/https://codenvy.com/api//account/memberships
-  tags: Account,Memberships
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/accountmemberships-get-openapi.md
-- name: Codenvy Account API Post Account Subscriptions
-  x-api-slug: codenvy-account-api
+- name: Codenvy Account API - Post Account Subscriptions
+  x-api-slug: accountsubscriptions-post
   description: 'Add a new subscription to an account. JSON with subscription details
     is sent. Roles: account/owner, system/admin.'
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
-  baseURL: :///account/https://codenvy.com/api//account/subscriptions
-  tags: Account,Subscriptions
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/accountsubscriptions-post-openapi.md
-- name: Codenvy Account API Delete Account Subscriptions Subscriptionid
-  x-api-slug: codenvy-account-api
+- name: Codenvy Account API - Delete Account Subscriptions Subscriptionid
+  x-api-slug: accountsubscriptionssubscriptionid-delete
   description: 'Remove subscription from account. Roles: account/owner, system/admin.'
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
-  baseURL: :///account/https://codenvy.com/api//account/subscriptions/{subscriptionId}
-  tags: Account,Subscriptions,SubscriptionId
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/accountsubscriptionssubscriptionid-delete-openapi.md
-- name: Codenvy Account API Get Account Subscriptions Subscriptionid
-  x-api-slug: codenvy-account-api
+- name: Codenvy Account API - Get Account Subscriptions Subscriptionid
+  x-api-slug: accountsubscriptionssubscriptionid-get
   description: Get information on a particular subscription by its unique ID.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
-  baseURL: :///account/https://codenvy.com/api//account/subscriptions/{subscriptionId}
-  tags: Account,Subscriptions,SubscriptionId
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/accountsubscriptionssubscriptionid-get-openapi.md
-- name: Codenvy Account API Get Account Accountid Subscriptions
-  x-api-slug: codenvy-account-api
+- name: Codenvy Account API - Get Account Accountid Subscriptions
+  x-api-slug: accountaccountidsubscriptions-get
   description: Get information on account subscriptions. This API call requires account/owner,
     account/member, system/admin or system/manager role.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
-  baseURL: :///account/https://codenvy.com/api//account/{accountId}/subscriptions
-  tags: Account,AccountId,Subscriptions
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/accountaccountidsubscriptions-get-openapi.md
-- name: Codenvy Account API Delete Account
-  x-api-slug: codenvy-account-api
+- name: Codenvy Account API - Delete Account
+  x-api-slug: accountid-delete
   description: Remove subscription from account. JSON with subscription details is
     sent. Can be performed only by system/admin.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
-  baseURL: :///account/https://codenvy.com/api//account/{id}
-  tags: Account,Id
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/accountid-delete-openapi.md
-- name: Codenvy Account API Get Account
-  x-api-slug: codenvy-account-api
+- name: Codenvy Account API - Get Account
+  x-api-slug: accountid-get
   description: Get account information by its ID. JSON with account details is returned.
     This API call requires account/owner, system/admin or system/manager role.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
-  baseURL: :///account/https://codenvy.com/api//account/{id}
-  tags: Account,Id
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/accountid-get-openapi.md
-- name: Codenvy Account API Post Account
-  x-api-slug: codenvy-account-api
+- name: Codenvy Account API - Post Account
+  x-api-slug: accountid-post
   description: Update account. This API call requires account/owner role.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
-  baseURL: :///account/https://codenvy.com/api//account/{id}
-  tags: Account,Id
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/accountid-post-openapi.md
-- name: Codenvy Account API Delete Account Attribute
-  x-api-slug: codenvy-account-api
+- name: Codenvy Account API - Delete Account Attribute
+  x-api-slug: accountidattribute-delete
   description: Remove attribute from an account. Attribute name is used as a quary
     parameter. For this API request account/owner, system/admin or system/manager
     role is required
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
-  baseURL: :///account/https://codenvy.com/api//account/{id}/attribute
-  tags: Account,Id,Attribute
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/accountidattribute-delete-openapi.md
-- name: Codenvy Account API Get Account Members
-  x-api-slug: codenvy-account-api
+- name: Codenvy Account API - Get Account Members
+  x-api-slug: accountidmembers-get
   description: Get all members for a specific account. This API call requires account/owner,
     system/admin or system/manager role.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
-  baseURL: :///account/https://codenvy.com/api//account/{id}/members
-  tags: Account,Id,Members
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/accountidmembers-get-openapi.md
-- name: Codenvy Account API Post Account Members
-  x-api-slug: codenvy-account-api
+- name: Codenvy Account API - Post Account Members
+  x-api-slug: accountidmembers-post
   description: Add a new user to an account. This user will have account/member role.
     This API call requires account/owner, system/admin or system/manager role.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
-  baseURL: :///account/https://codenvy.com/api//account/{id}/members
-  tags: Account,Id,Members
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/accountidmembers-post-openapi.md
-- name: Codenvy Account API Delete Account Members User
-  x-api-slug: codenvy-account-api
+- name: Codenvy Account API - Delete Account Members User
+  x-api-slug: accountidmembersuserid-delete
   description: Remove user from a specific account. This API call requires account/owner,
     system/admin or system/manager role.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
-  baseURL: :///account/https://codenvy.com/api//account/{id}/members/{userid}
-  tags: Account,Id,Members,Userid
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/accountidmembersuserid-delete-openapi.md
-- name: Codenvy Account API Get Account Resources
-  x-api-slug: codenvy-account-api
+- name: Codenvy Account API - Get Account Resources
+  x-api-slug: accountidresources-get
   description: 'Returns used resources, provided by subscriptions. Roles: account/owner,
     account/member, system/manager, system/admin.'
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
-  baseURL: :///account/https://codenvy.com/api//account/{id}/resources
-  tags: Account,Id,Resources
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/accountidresources-get-openapi.md
-- name: Codenvy Account API Post Account Resources
-  x-api-slug: codenvy-account-api
+- name: Codenvy Account API - Post Account Resources
+  x-api-slug: accountidresources-post
   description: 'Redistributes resources between workspaces. Roles: account/owner,
     system/manager, system/admin.'
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
-  baseURL: :///account/https://codenvy.com/api//account/{id}/resources
-  tags: Account,Id,Resources
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/accountidresources-post-openapi.md
-- name: Codenvy Account API Post Blogs
-  x-api-slug: codenvy-account-api
+- name: Codenvy Account API - Post Blogs
+  x-api-slug: blogs-post
   description: Creates a new Story.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
-  baseURL: :///account/https://codenvy.com/api//blogs/
-  tags: Blogs
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/blogs-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/blogs-post-openapi.md
-- name: Codenvy Account API Put Blogs
-  x-api-slug: codenvy-account-api
+- name: Codenvy Account API - Put Blogs
+  x-api-slug: blogsid-put
   description: Updates the Story.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
-  baseURL: :///account/https://codenvy.com/api//blogs/:id
-  tags: Blogs,:id
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/blogsid-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/blogsid-put-openapi.md
-- name: Codenvy Account API Post Blogs Comments
-  x-api-slug: codenvy-account-api
+- name: Codenvy Account API - Post Blogs Comments
+  x-api-slug: blogsidcomments-post
   description: Creates a comment for the Story.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
-  baseURL: :///account/https://codenvy.com/api//blogs/:id/comments
-  tags: Blogs,:id,Comments
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/blogsidcomments-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/blogsidcomments-post-openapi.md
-- name: Codenvy Account API Post Collections
-  x-api-slug: codenvy-account-api
+- name: Codenvy Account API - Post Collections
+  x-api-slug: collections-post
   description: Creates new a collection.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
-  baseURL: :///account/https://codenvy.com/api//collections
-  tags: Collections
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/collections-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/collections-post-openapi.md
-- name: Codenvy Account API Put Collections
-  x-api-slug: codenvy-account-api
+- name: Codenvy Account API - Put Collections
+  x-api-slug: collectionsid-put
   description: Updates collection.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
-  baseURL: :///account/https://codenvy.com/api//collections/:id
-  tags: Collections,:id
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/collectionsid-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/collectionsid-put-openapi.md
-- name: Codenvy Account API Post Comments Comments
-  x-api-slug: codenvy-account-api
+- name: Codenvy Account API - Post Comments Comments
+  x-api-slug: commentsidcomments-post
   description: Creates a reply to an existing comment. Comments can only be nested
     one level deep, you cannot reply to a reply of a comment. If a comment has a non-null
     parent_id value then it cannot be replied to.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
-  baseURL: :///account/https://codenvy.com/api//comments/:id/comments
-  tags: Comments,:id,Comments
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/commentsidcomments-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/commentsidcomments-post-openapi.md
-- name: Codenvy Account API Post Photos
-  x-api-slug: codenvy-account-api
+- name: Codenvy Account API - Post Photos
+  x-api-slug: photos-post
   description: Create a new photo on behalf of the user, and receive an upload key
     in exchange.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
-  baseURL: :///account/https://codenvy.com/api//photos
-  tags: Photos
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/photos-post-openapi.md
-- name: Codenvy Account API Put Photos
-  x-api-slug: codenvy-account-api
+- name: Codenvy Account API - Put Photos
+  x-api-slug: photosid-put
   description: 'Allows the client application to update user-editable information
     on a photo.nnnResource URLnnhttps://api.500px.com/v1/photos/:idnnnnAuthenticationnnRequired;
     OAuth. The client application must use the OAuth access token issued for the owner
@@ -331,234 +379,253 @@ apis:
     license type value has been provided.'
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
-  baseURL: :///account/https://codenvy.com/api//photos/:id
-  tags: Photos,:id
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/photosid-put-openapi.md
-- name: Codenvy Account API Post Photos Comments
-  x-api-slug: codenvy-account-api
+- name: Codenvy Account API - Post Photos Comments
+  x-api-slug: photosidcomments-post
   description: Creates a new comment for the photo.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
-  baseURL: :///account/https://codenvy.com/api//photos/:id/comments
-  tags: Photos,:id,Comments
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/photosidcomments-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/photosidcomments-post-openapi.md
-- name: Codenvy Account API Post Photos Favorite
-  x-api-slug: codenvy-account-api
+- name: Codenvy Account API - Post Photos Favorite
+  x-api-slug: photosidfavorite-post
   description: Adds the photo to users list of favorites.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
-  baseURL: :///account/https://codenvy.com/api//photos/:id/favorite
-  tags: Photos,:id,Favorite
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/photosidfavorite-post-openapi.md
-- name: Codenvy Account API Get Photos Favorites
-  x-api-slug: codenvy-account-api
+- name: Codenvy Account API - Get Photos Favorites
+  x-api-slug: photosidfavorites-get
   description: Returns all users that had favorite that photo.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
-  baseURL: :///account/https://codenvy.com/api//photos/:id/favorites
-  tags: Photos,:id,Favorites
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/photosidfavorites-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/photosidfavorites-get-openapi.md
-- name: Codenvy Account API Post Photos Report
-  x-api-slug: codenvy-account-api
+- name: Codenvy Account API - Post Photos Report
+  x-api-slug: photosidreport-post
   description: Allows to report a photo.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
-  baseURL: :///account/https://codenvy.com/api//photos/:id/report
-  tags: Photos,:id,Report
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/photosidreport-post-openapi.md
-- name: Codenvy Account API Post Photos Tags
-  x-api-slug: codenvy-account-api
+- name: Codenvy Account API - Post Photos Tags
+  x-api-slug: photosidtags-post
   description: Adds tags to the photo. Accepts one or multiple coma separated tags.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
-  baseURL: :///account/https://codenvy.com/api//photos/:id/tags
-  tags: Photos,:id,Tags
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/photosidtags-post-openapi.md
-- name: Codenvy Account API Post Photos Vote
-  x-api-slug: codenvy-account-api
+- name: Codenvy Account API - Post Photos Vote
+  x-api-slug: photosidvote-post
   description: Allows the user to vote for a photo.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
-  baseURL: :///account/https://codenvy.com/api//photos/:id/vote
-  tags: Photos,:id,Vote
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/photosidvote-post-openapi.md
-- name: Codenvy Account API Get Photos Votes
-  x-api-slug: codenvy-account-api
+- name: Codenvy Account API - Get Photos Votes
+  x-api-slug: photosidvotes-get
   description: Returns all users that had liked this photo.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
-  baseURL: :///account/https://codenvy.com/api//photos/:id/votes
-  tags: Photos,:id,Votes
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/photosidvotes-get-openapi.md
-- name: Codenvy Account API Get Photos Search
-  x-api-slug: codenvy-account-api
+- name: Codenvy Account API - Get Photos Search
+  x-api-slug: photossearch-get
   description: Returns a listing of twenty (up to one hundred) photos from search
     results for a specified tag, keyword, or location.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
-  baseURL: :///account/https://codenvy.com/api//photos/search
-  tags: Photos,Search
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/photossearch-get-openapi.md
-- name: Codenvy Account API Post Photos Upload
-  x-api-slug: codenvy-account-api
+- name: Codenvy Account API - Post Photos Upload
+  x-api-slug: photosupload-post
   description: This is a new photo upload endpoint. It is currently in beta.nCreate
     a new photo on behalf of the user and upload a file.nfile parameter is passed
     in multipart/form-data, other parameters are passed as query parametrs or multipart/form-data.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
-  baseURL: :///account/https://codenvy.com/api//photos/upload
-  tags: Photos,Upload
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/photosupload-post-openapi.md
-- name: Codenvy Account API Post Upload
-  x-api-slug: codenvy-account-api
+- name: Codenvy Account API - Post Upload
+  x-api-slug: upload-post
   description: Allows an application to upload the photo file.nnNote that this endpoint
     is at the upload.500px.com domain, not the api.500px.com domain.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
-  baseURL: :///account/https://codenvy.com/api//upload
-  tags: Upload
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/upload-post-openapi.md
-- name: Codenvy Account API Get Users
-  x-api-slug: codenvy-account-api
+- name: Codenvy Account API - Get Users
+  x-api-slug: users-get
   description: Returns the profile information for the current user.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
-  baseURL: :///account/https://codenvy.com/api//users
-  tags: Users
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/users-get-openapi.md
-- name: Codenvy Account API Get Users Followers
-  x-api-slug: codenvy-account-api
+- name: Codenvy Account API - Get Users Followers
+  x-api-slug: usersidfollowers-get
   description: Returns a list of users who follow the specified user.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
-  baseURL: :///account/https://codenvy.com/api//users/:id/followers
-  tags: Users,:id,Followers
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/usersidfollowers-get-openapi.md
-- name: Codenvy Account API Post Users Friends
-  x-api-slug: codenvy-account-api
+- name: Codenvy Account API - Post Users Friends
+  x-api-slug: usersidfriends-post
   description: Add the user to the list of followers.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
-  baseURL: :///account/https://codenvy.com/api//users/:id/friends
-  tags: Users,:id,Friends
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/usersidfriends-post-openapi.md
-- name: Codenvy Account API Get Users Search
-  x-api-slug: codenvy-account-api
+- name: Codenvy Account API - Get Users Search
+  x-api-slug: userssearch-get
   description: Return listing of ten (up to one hundred) users from search results
     for a specified search term.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
-  baseURL: :///account/https://codenvy.com/api//users/search
-  tags: Users,Search
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/userssearch-get-openapi.md
-- name: Codenvy Account API Get Users Show
-  x-api-slug: codenvy-account-api
+- name: Codenvy Account API - Get Users Show
+  x-api-slug: usersshow-get
   description: Returns the profile information for a specified user.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
-  baseURL: :///account/https://codenvy.com/api//users/show
-  tags: Users,Show
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/usersshow-get-openapi.md
-- name: Codenvy Account API
-  x-api-slug: codenvy-account-api
-  description: 'Voice & SMS API Platform: Plivo enables businesses and developers
-    to tap into powerful Voice and SMS capabilities without carrier lock-in.'
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
-  humanURL: http:///account
-  baseURL: :///account/https://codenvy.com/api
-  tags: Plivo
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/openapi.md
-- name: Plivo SMS Message
-  x-api-slug: plivo-sms
+- name: Plivo SMS - Message
+  x-api-slug: auth-idmessage-get
   description: Get details of a message.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
-  baseURL: https://api.plivo.com/v1//{auth_id}/Message/
-  tags: Message
+  baseURL: https://api.plivo.com/v1/
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/auth-idmessage-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/auth-idmessage-get-openapi.md
-- name: Plivo SMS Send Message
-  x-api-slug: plivo-sms
+- name: Plivo SMS - Send Message
+  x-api-slug: auth-idmessage-post
   description: This API enables you to send messages via Plivou2019s SMS service.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
-  baseURL: https://api.plivo.com/v1//{auth_id}/Message/
-  tags: Send,Message
+  baseURL: https://api.plivo.com/v1/
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/auth-idmessage-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/auth-idmessage-post-openapi.md
-- name: Plivo SMS Message
-  x-api-slug: plivo-sms
+- name: Plivo SMS - Message
+  x-api-slug: auth-idmessagemessage-uuid-get
   description: Get details of a single message.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
-  baseURL: https://api.plivo.com/v1//{auth_id}/Message/{message_uuid}/
-  tags: Message
+  baseURL: https://api.plivo.com/v1/
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/auth-idmessagemessage-uuid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/auth-idmessagemessage-uuid-get-openapi.md
-- name: Plivo SMS
-  x-api-slug: plivo-sms
-  description: Plivo provides web developers with basic building blocks in the form
-    of Plivo XML and HTTP API, to create telephony apps, so developers can completely
-    do away with learning the nitty-gritty of the telephony plumbing.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
-  humanURL: http:///account
-  baseURL: https://api.plivo.com/v1/
-  tags: Plivo
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/plivo/master/_listings/plivo/openapi.md
 x-common:
 - type: x--net-library
   url: https://www.plivo.com/docs/helpers/dotnet/
 - type: x-android-sdk
   url: https://www.plivo.com/docs/sdk/android/
+- type: x-api-gallery
+  url: http://plentymarkets.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://plivo.stack.network
 - type: x-base
   url: https://api.plivo.com
 - type: x-blog
